@@ -1,0 +1,113 @@
+/** 常用色值 **/
+/** 常用字体大小 **/
+/** load **/
+.ajax-loading {
+  display: none;
+}
+.ajax-loading .loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 40px;
+  height: 80px;
+  line-height: 80px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 6px;
+  text-align: center;
+  z-index: 9999;
+  font-size: 16px;
+  color: #fff;
+}
+.ajax-loading .loading img {
+  width: 32px;
+  vertical-align: middle;
+}
+.ajax-loading .loading span {
+  margin-left: 12px;
+}
+.ajax-loading .overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9998;
+  background: #ffffff;
+  opacity: 0.1;
+}
+/****/
+ul,
+li {
+  list-style: none;
+}
+.clearfix::after {
+  content: ' ';
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+.container .nav-left {
+  background-color: #001529;
+  color: #ffffff;
+  height: calc(100vh);
+}
+.container .main {
+  height: calc(100vh);
+  background-color: #f1f3f5;
+  overflow: auto;
+}
+.container .content {
+  position: relative;
+  padding: 20px;
+}
+.content-wrap {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  margin-top: -3px;
+}
+.content-wrap .ant-table-wrapper {
+  margin-left: -1px;
+  margin-right: -2px;
+}
+.ant-card button {
+  margin-right: 10px;
+}
+.detail-items {
+  margin-left: 90px;
+  padding: 25px 50px 25px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.detail-items:last-child {
+  border-bottom: none;
+}
+.detail-items .item-title {
+  margin: 20px 0;
+  font-size: 20px;
+  color: #bebebe;
+}
+.detail-items .detail-form li {
+  margin: 20px 0;
+  line-height: 20px;
+  font-size: 15px;
+  color: #333;
+}
+.detail-items .detail-form li::after {
+  content: ' ';
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+.detail-items .detail-form-left {
+  float: left;
+  width: 164px;
+  text-align: right;
+  color: #999;
+}
+.detail-items .detail-form-content {
+  padding-left: 194px;
+}
+.order-map {
+  height: 450px;
+  margin: 25px -31px 0;
+}
